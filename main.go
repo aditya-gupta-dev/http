@@ -53,6 +53,7 @@ func getLinesChannel(f io.ReadCloser) <-chan string {
 }
 
 func main() {
+	// completed chapter 1
 	file, err := os.Open("messages.txt")
 	if err != nil {
 		panic(err)
